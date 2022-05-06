@@ -1,0 +1,82 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  background-color: #ffdfff;
+  color: white;
+  font-family: helvetica;
+}
+img{
+  padding-top: 5%;
+}
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #ffacff;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  color: transparent;
+  box-shadow: 0.0625rem 0.0625rem 0.125rem #9e7dfb;
+  font-size: 50px;
+}
+button:hover .fa-star{
+    color: #ffacff;
+    transition: 1.5s;
+    transform: rotateY(-360deg);
+}
+button:hover{ 
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1); }
+}
+.gif{
+  margin-top: 1%;
+  background-image: url(../img/nasa2.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
+li{
+  list-style: none;
+  text-align: left;
+  margin-left: 31%;
+  margin-bottom: 1%;
+  font-size: 20px;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem #9e7dfb;
+}
+footer {
+  font-style: italic;
+  background-color: #ffacff;
+  padding: 1% 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer a:link{
+  color: white;
+  text-decoration: none;
+}
+footer a:visited{
+  color: white;
+}
+.hidden{
+  display: none;
+}
