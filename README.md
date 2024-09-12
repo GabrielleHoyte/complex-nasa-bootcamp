@@ -1,22 +1,14 @@
 # 🚀 Project: Complex NASA API
+ 
+A complex NASA API that returns all the NASA facilities, the current temperature and the zipcode
 
-### Goal: Use NASA's API to return all of their facility locations (~400). Display the name of the facility, its location, and the weather at the facility currently. 
+#### Link to Project: 
 
-### How to submit your code for review:
+![Screen Shot 2022-05-06 at 3 25 42 PM](https://user-images.githubusercontent.com/101993328/167204581-61489353-ccd5-4cf8-8665-b90ecddf73b5.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+Tech used: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## API's Used
+https://data.nasa.gov/Management-Operations/NASA-Facilities-API/kgkb-q7v4
+https://www.weatherapi.com/
